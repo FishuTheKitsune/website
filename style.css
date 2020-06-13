@@ -1,0 +1,264 @@
+        body {
+            margin: 0;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+        }
+        
+        .split {
+            height: 100%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+        
+        .column {
+            float: left;
+            height: 100%;
+        }
+        
+        .center {
+            background: pink;
+            width: 70%;
+            margin-left: 15%;
+        }
+        
+        .row {
+            background-image: url(grafiki/tapeta-kwitnaca-wisnia-japonska.jpg);
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .baner {
+            width: 80%;
+            padding: 2rem;
+            padding-left: 10%;
+            padding-right: 10%;
+            margin-bottom: 0px;
+        }
+        
+        ul {
+            list-style-type: none;
+            margin: 2rem;
+            padding: 0;
+            overflow: hidden;
+            background-color: #ff1da1;
+        }
+        
+        li {
+            float: left;
+            min-height: 50px;
+            height: 100%;
+            width: 25%;
+            display: block;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #570d5a;
+        }
+        
+        main {
+            background-color: #f563b8;
+            color: white;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            margin: 2rem;
+            padding: 1rem;
+        }
+        
+        .box {
+            text-align: center;
+            margin-bottom: 1rem;
+            border: 2px solid purple;
+            background-color: purple;
+        }
+        
+        .content {
+            border: 2px solid #ff1da1;
+            background-color: #ff1da1;
+            padding: 1rem;
+            margin: 15px;
+        }
+        
+        footer {
+            background-color: #f563b8;
+            color: white;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            text-align: center;
+            margin: 2rem;
+        }
+        
+        .floated {
+            float: right;
+            margin-left: 2rem;
+            width: 40%;
+        }
+        
+        .text {
+            display: inline;
+            font-size: 24px;
+        }
+        
+        @media (max-width:1000px) {
+            .text {
+                font-size: 15px;
+            }
+        }
+        
+        @media(min-width:1200px) {
+            .center {
+                width: 50%;
+                margin-left: 25%;
+            }
+        }
+        
+        div.gallery {
+            margin: 0;
+            border: 1px solid #ccc;
+            float: left;
+            color: black;
+            background-color: white;
+        }
+        
+        div.gallery:hover {
+            border: 2px solid black;
+        }
+        
+        div.gallery img {
+            width: 100%;
+            height: auto;
+            height: 140px;
+        }
+        
+        div.desc {
+            padding: 15px;
+            text-align: center;
+            height: 50px;
+        }
+        
+        .galeria {
+            text-align: center;
+        }
+        
+        .space {
+            height: 400px;
+        }
+        
+        .box2 {
+            width: 25%;
+            float: left;
+            height: 240px;
+        }
+        
+        @media (max-width:1000px) {
+            div.gallery img {
+                height: 100px;
+            }
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .text2 {
+            margin-bottom: 0;
+        }
+        
+        .thanks {
+            text-align: center;
+            font-size: 144px;
+            margin-top: 150px;
+            font-weight: bold;
+        }
+        
+        .text3 {
+            display: inline;
+            font-size: 20px;
+        }
+        
+        .floated2 {
+            float: left;
+            margin-right: 2rem;
+            width: 40%;
+        }
+        
+        .seperator {
+            margin-top: 2rem;
+        }
+        
+        .border {
+            border: 3px solid black;
+            padding: 1rem;
+            margin: 1rem;
+        }
+        
+        @media (max-width:500px) {
+            .left {
+                width: 0%;
+                margin-left: 0%;
+            }
+            .right {
+                width: 0%;
+                margin-left: 0%;
+            }
+            .center {
+                width: 100%;
+                margin-left: 0%;
+            }
+        }
+        
+        footer {
+            padding: 5px;
+        }
+        
+        .left2 {
+            width: 50%;
+            float: left;
+        }
+        
+        .right2 {
+            width: 50%;
+            float: left;
+        }
+        
+        .content2 {
+            border: 2px solid #ff1da1;
+            background-color: #ff1da1;
+            padding: 1rem;
+            margin: 15px;
+            height: 1000px;
+        }
+        
+        .text4 {
+            display: inline;
+            font-size: 20px;
+        }
+        
+        .floated3 {
+            float: left;
+            margin-right: 1rem;
+            width: 50%;
+        }
+        
+        .border2 {
+            height: 350px;
+            border: 3px solid black;
+            padding: 1rem;
+            margin: 1rem;
+        }
+        
+        h2 {
+            text-align: center;
+        }
